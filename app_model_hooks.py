@@ -83,7 +83,7 @@ def retrain():  # Rutarlo al endpoint '/api/v1/retrain/', metodo GET
 def webhook():
     # Ruta al repositorio donde se realizará el pull
     path_repo = "/home/rukyflo/myFlaskApp"
-    servidor_web = "/var/www/lucaszv_pythonanywhere_com_wsgi.py"
+    servidor_web = "/var/www/rukyflo_pythonanywhere_com_wsgi.py"
 
     # Comprueba si la solicitud POST contiene datos JSON
     if request.is_json:
